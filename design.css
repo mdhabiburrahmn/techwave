@@ -31,4 +31,18 @@
     max-width: 1600px;
     height: 760px;
     background-image: url('./images/hero-bg.png');
+    display: flex;
+    align-items: center;
+}
+
+.header-body .header-contents{
+    max-width: 550px;
+    max-height: 558px;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    margin: 101px 525px;
+
+   
+    border: 1px solid yellow;
 }
