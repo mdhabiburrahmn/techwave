@@ -1,1 +1,34 @@
 
+/* Universal Selector and Style */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Sheared Style */
+
+
+/* Header Section Designs */
+.header{
+    width: 100%;
+    max-width: 1600px;
+    
+}
+
+/* Header Nav Designs */
+.header .main-nav{
+    width: 100%;
+    max-width: 1600px;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Header Content Designs */
+.header-body {
+    width: 100%;
+    max-width: 1600px;
+    height: 760px;
+    background-image: url('./images/hero-bg.png');
+}
