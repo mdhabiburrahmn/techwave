@@ -33,6 +33,7 @@
     background-image: url('./images/hero-bg.png');
     display: flex;
     align-items: center;
+    
 }
 
 .header-body .header-contents{
@@ -41,8 +42,8 @@
     color: white;
     margin: 0 auto;
     text-align: center;
-    margin: 101px 525px;
-
-   
+    padding-bottom: 101px;
     border: 1px solid yellow;
 }
+
+
