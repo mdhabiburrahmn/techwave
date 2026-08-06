@@ -26,7 +26,7 @@
 }
 
 /* Header Content Designs */
-.header-body {
+.hero-section{
     width: 100%;
     max-width: 1600px;
     height: 760px;
@@ -36,14 +36,17 @@
     
 }
 
-.header-body .header-contents{
+/* Hero Content Section */
+
+.hero-contents{
     max-width: 550px;
-    max-height: 558px;
-    color: white;
+    height: 558px;
     margin: 0 auto;
-    text-align: center;
-    padding-bottom: 101px;
-    border: 1px solid yellow;
+    border: 1px solid red;
 }
 
 
+/* Circle Image Design Section */
+.circle-image{
+    border: 1px solid green;
+}
