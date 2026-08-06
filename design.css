@@ -48,5 +48,19 @@
 
 /* Circle Image Design Section */
 .circle-image{
+    max-width: 350px;
+    height: 350px;
     border: 1px solid green;
+    margin: 0 auto;
+}
+
+/* Mircrophon Image Designs */
+
+.mircrophn{
+    position: relative;
+    bottom: 260px;
+    left: 116px;
+    
+    
+
 }
