@@ -50,7 +50,6 @@
 .circle-image{
     max-width: 350px;
     height: 350px;
-    border: 1px solid green;
     margin: 0 auto;
 }
 
@@ -60,7 +59,20 @@
     position: relative;
     bottom: 260px;
     left: 116px;
-    
-    
+}
 
+/* Hero NEW Btn Design */
+.circle-image .hero-new-btn{
+    background-color: #00FF88;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 1000px;
+   
+}
+
+/* NEW Btn Position Design */
+.hero-new-btn{
+    position: relative;
+    bottom: 460px;
+    left: 116px;
 }
