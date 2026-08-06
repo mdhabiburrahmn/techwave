@@ -91,7 +91,6 @@
 /* Hero Contents and Button Designs */
 
 .hero-contents .hero-texts{
-    border: 1px solid white;
     text-align: center;
     margin-top: 40px;
 }
@@ -111,7 +110,31 @@
 }
 
 .hero-texts .hero-btns{
+    display: flex;
+    justify-content: center;
     border: 1px solid green;
     margin-top: 24px;
-    
+
+}
+
+#btn-bg-colrd{
+     max-width: 201px;
+     background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);
+     padding: 10px 10px;
+     border: none;
+     border-radius: 50px ;
+     display: flex;
+     justify-content: center;
+     gap: 10px;
+}
+
+.hero-btns .suscbe-btn{
+     max-width: 201px;
+     background: transparent;
+     padding: 10px 12px;
+     border: 1px solid #00FF88;
+     border-radius: 50px ;
+     display: flex;
+     justify-content: center;
+     gap: 10px;
 }
