@@ -1,4 +1,15 @@
 
+/* Google Font Import and Design */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  
+}
+
 /* Universal Selector and Style */
 *{
     margin: 0px;
@@ -83,4 +94,24 @@
     border: 1px solid white;
     text-align: center;
     margin-top: 40px;
+}
+
+.hero-texts .hero-text-title{
+    font-size: 3.75rem;
+    font-weight: bolder;
+    color: #ffffff;
+}
+
+.hero-texts .title-decrptn{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #ffffff;
+    line-height: auto;
+    margin-top: 16px;
+}
+
+.hero-texts .hero-btns{
+    border: 1px solid green;
+    margin-top: 24px;
+    
 }
