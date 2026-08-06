@@ -195,3 +195,27 @@ main .podcast-section{
 .info-card p{
     color: #ffffff;
 }
+
+/* Featuring Section Designs */
+
+main .featuring-section{
+    max-width: 1600px;
+    height: 1631px;
+    border: 1px solid #00FF88;
+    background-color: #230E3D ;
+    padding: 120px 200px;
+    
+    
+    
+}
+
+.featuring-section .title-section{
+    border: 1px solid gold;
+      max-width: 1200px;
+}
+.featuring-section .main-featurs-body{
+    max-width: 1200px;
+    height: 1293px;
+    border: 1px solid white;
+}
+
