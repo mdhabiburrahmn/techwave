@@ -76,3 +76,11 @@
     bottom: 460px;
     left: 116px;
 }
+
+/* Hero Contents and Button Designs */
+
+.hero-contents .hero-texts{
+    border: 1px solid white;
+    text-align: center;
+    margin-top: 40px;
+}
