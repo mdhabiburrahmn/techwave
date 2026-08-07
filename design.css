@@ -211,20 +211,25 @@ main .podcast-section{
 main .featuring-section{
     max-width: 1600px;
     height: 1631px;
-    border: 1px solid #00FF88;
     background-color: #230E3D ;
     padding: 120px 200px;
 }
 
 .featuring-section .title-section{
-    border: 1px solid gold;
     max-width: 1200px;
-    text-align: center;
+    text-align: center
 }
+
+.title-section .feature-title{
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: auto;
+}
+
 .featuring-section .main-features-body{
     max-width: 1200px;
     height: 1293px;
-    border: 1px solid white;
 }
 
 /* Features Cards Designs */
@@ -263,7 +268,6 @@ main .featuring-section{
     font-size: 16px;
     font-weight: 300px;
     line-height: 24px;
-    
 }
 
 /* Shared Designs of Third Main Cards */
@@ -357,3 +361,13 @@ main .featuring-section{
     margin-right: 30px;
 }
 
+/* Feature Episodes and Host Meeting Section */
+
+/* Body Section Designs */
+
+.feature-episodes{
+    max-width: 1600px;
+    height: 1276px;
+    background-color: #1A0B2E;
+    border: 1px solid greenyellow;
+}
