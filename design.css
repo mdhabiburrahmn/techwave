@@ -211,11 +211,49 @@ main .featuring-section{
 
 .featuring-section .title-section{
     border: 1px solid gold;
-      max-width: 1200px;
+    max-width: 1200px;
+    text-align: center;
 }
 .featuring-section .main-featurs-body{
     max-width: 1200px;
     height: 1293px;
     border: 1px solid white;
+}
+
+/* Info Card Section Designs */
+.info-cards{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
+}
+
+.audio-card{
+    grid-row: span 2;
+}
+
+.card-1{
+    width: 340px;
+    height: 480px;
+    background-color: #351165;
+    border: none;
+    border-radius: 16px;
+    padding: 108px 40px;
+}
+
+.card-1, .card-img{
+    margin-bottom: 16px;
+}
+.card-1 h4{
+    color: #ffffff;
+    margin-top: 16x;
+    margin-bottom: 16px;
+}
+
+.card-2, .card-3{
+    width: 790px;
+    height: 225px;
+    background-color: #351165;
+    border: none;
+    border-radius: 16px;
 }
 
