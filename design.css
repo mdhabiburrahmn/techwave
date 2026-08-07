@@ -24,6 +24,16 @@ Color-01
  background-color: #1A0B2E;
 }
 
+/* Card Image Designs */
+
+
+/* Card Title Designs */
+
+
+/* Card Texts Designs */
+
+
+
 /* Header Section Designs */
 .header{
     width: 100%;
@@ -204,9 +214,6 @@ main .featuring-section{
     border: 1px solid #00FF88;
     background-color: #230E3D ;
     padding: 120px 200px;
-    
-    
-    
 }
 
 .featuring-section .title-section{
@@ -214,23 +221,63 @@ main .featuring-section{
     max-width: 1200px;
     text-align: center;
 }
-.featuring-section .main-featurs-body{
+.featuring-section .main-features-body{
     max-width: 1200px;
     height: 1293px;
     border: 1px solid white;
 }
 
-/* Info Card Section Designs */
+/* Features Cards Designs */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>> */
+/* Shared Desigs for Card */
+
+.card-bg-color{
+    background-color: #351165;
+}
+
+/* Horizontal Card Designs */
+.hrintal-card{
+    width: 790px;
+    height: 225px;
+    background-color: #351165;
+    border: none;
+    border-radius: 16px;
+}
+
+.card-img-style{
+    margin-bottom: 16px;
+}
+
+/* Card Title Design */
+.title-txt-style{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: auto;
+    margin-bottom: 16px
+}
+
+/* Card Text Style Desing */
+.card-txt-design{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300px;
+    line-height: 24px;
+}
+
+/* >>>>>>>>>>>>>>>>>>> */
+/* Cards Body Designs */
+
 .info-cards{
     display: grid;
     grid-template-columns: 1fr 2fr;
-    gap: 30px;
+    gap: 10px;
+    padding: 20px 20px;
 }
 
-.audio-card{
-    grid-row: span 2;
+.about-info-cards{
+    grid-row: span 2 ;
 }
-
 .card-1{
     width: 340px;
     height: 480px;
@@ -240,20 +287,36 @@ main .featuring-section{
     padding: 108px 40px;
 }
 
-.card-1, .card-img{
+/* .card-1, 
+.card-image{
     margin-bottom: 16px;
-}
-.card-1 h4{
+} */
+ 
+/* .title-text{
     color: #ffffff;
-    margin-top: 16x;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: auto;
     margin-bottom: 16px;
-}
+} */
 
-.card-2, .card-3{
+/* .card-1, .title-texts{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300px;
+    line-height: 24px;
+} */
+
+
+/* .card-2, .card-3{
     width: 790px;
     height: 225px;
     background-color: #351165;
     border: none;
-    border-radius: 16px;
-}
+    border-radius: 16px; 
+    
+} */
 
+.card-2, .card-3{
+    padding: 40px 40px;
+}
