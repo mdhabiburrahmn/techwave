@@ -397,12 +397,6 @@ main .featuring-section{
     margin-bottom: 40px;
 }
 
-.host-meeting-section{
-    max-width: 1200px;
-    height: 378px;
-    border: 1px solid firebrick;
-}
-
 .episode-cardinfo{
     display: flex;
     justify-content: space-between;
@@ -456,5 +450,65 @@ main .featuring-section{
     padding-left: 14px;
     gap: 10px;
     background-color: #250D44;
-    
+}
+
+/* Meeting with the Host Section Design */
+
+.host-meeting-section{
+    max-width: 1200px;
+    height: 378px;
+    margin-top: 140px
+}
+
+.meeting-title, .host-title{
+     color: #ffffff;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.host-img-txt{
+    max-width: 1200px;
+    height: 280px;
+    background-color: #250D44;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 40px 40px;
+}
+
+.about-host > .host-name{
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: auto;
+    margin-bottom: 16px;
+}
+
+.host-text{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+}
+
+.host-sm{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.host-sm .social-media{
+    max-width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #533C72;
+    border-radius: 1000px;
+    padding: 10px;
+    background-color: transparent;
+    margin-top: 16px;
 }
