@@ -512,3 +512,22 @@ main .featuring-section{
     background-color: transparent;
     margin-top: 16px;
 }
+
+.footer-section{
+    max-width: 1600px;
+    height: 412;
+    background-image: url('./images/footer-bg.png');
+    display: grid;
+    justify-content: center;
+    padding: 120px 140px;
+}
+
+
+.footer-contents{
+    max-width: 1360px;
+    height: 172px;
+    border: 1px solid white;
+    display: grid;
+    align-items: center;
+    text-align: center;
+}
