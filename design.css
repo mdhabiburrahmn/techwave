@@ -370,4 +370,55 @@ main .featuring-section{
     height: 1276px;
     background-color: #1A0B2E;
     border: 1px solid greenyellow;
+    display: grid;
+    align-items: center;
+    padding: 120px 200px;
+}
+
+/* .episode-contianer{
+    max-width: 1200px;
+    height: 720px;
+    border: 1px solid white;
+    margin: 200px 200px;
+} */
+
+.episode-section{
+    max-width: 1200px;
+    height: 538px;
+    border: 1px solid firebrick;
+}
+
+.host-meeting-section{
+    max-width: 1200px;
+    height: 378px;
+    border: 1px solid firebrick;
+}
+
+.episode-cardinfo{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.episode-card{
+    max-width: 380px;
+    height: 440px;
+    border: 1px solid white;
+    border-radius: 16px;
+
+}
+
+.feature-img{
+     max-width: 380px;
+    height: 214x;
+}
+
+.play-icon{
+    max-width: 60px;
+    height: 60px;
+    background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);
+    border-radius: 1000px;
+    position: relative;
+    left: 150px;
+    bottom: 150px;
 }
