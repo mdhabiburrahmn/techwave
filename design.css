@@ -259,7 +259,9 @@ main .featuring-section{
     font-size: 20px;
     font-weight: bold;
     line-height: auto;
-    margin-bottom: 16px
+    margin-bottom: 16px;
+    
+
 }
 
 /* Card Text Style Desing */
@@ -369,7 +371,6 @@ main .featuring-section{
     max-width: 1600px;
     height: 1276px;
     background-color: #1A0B2E;
-    border: 1px solid greenyellow;
     display: grid;
     align-items: center;
     padding: 120px 200px;
@@ -385,7 +386,15 @@ main .featuring-section{
 .episode-section{
     max-width: 1200px;
     height: 538px;
-    border: 1px solid firebrick;
+}
+
+.episode-title{ 
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: auto;
+    text-align: center;
+    margin-bottom: 40px;
 }
 
 .host-meeting-section{
@@ -402,15 +411,17 @@ main .featuring-section{
 
 .episode-card{
     max-width: 380px;
-    height: 440px;
-    border: 1px solid white;
+    height: 490px;
     border-radius: 16px;
+    background-color: #250D44;
+  
 
 }
 
 .feature-img{
-     max-width: 380px;
+    max-width: 380px;
     height: 214x;
+    
 }
 
 .play-icon{
@@ -421,4 +432,29 @@ main .featuring-section{
     position: relative;
     left: 150px;
     bottom: 150px;
+}
+
+.episd-crd-title{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: auto;
+    padding: 0px 24px;
+}
+.episode-texts{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    padding: 24px 24px;
+}
+
+.time-img-txt, .time-img{
+    display:flex;
+    justify-content: left;
+    color: #00FF88;
+    padding-left: 14px;
+    gap: 10px;
+    background-color: #250D44;
+    
 }
