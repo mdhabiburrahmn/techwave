@@ -531,3 +531,20 @@ main .featuring-section{
     align-items: center;
     text-align: center;
 }
+
+/* Footer Title Designs */
+
+.brand-name{
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: auto;  
+}
+
+/* Wave Name Colors */
+
+.lieaner-color{
+  background: linear-gradient(to top, #F7E93F, #FB09B4, #9100F8);
+  background-clip: text;
+  color: transparent;
+}
