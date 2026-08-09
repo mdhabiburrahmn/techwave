@@ -185,9 +185,16 @@ Color-01
      border-radius: 50px ;
      display: flex;
      justify-content: center;
-     gap: 10px;
+     gap: 5px;
+     align-items: center;
+     color: #ffffff;
+     font-size: 16px;
 }
 
+.suscbe-btn{
+    align-items: center;
+    color: #00FF88;
+}
 .hero-btns .suscbe-btn{
      max-width: 201px;
      background: transparent;
