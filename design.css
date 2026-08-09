@@ -526,7 +526,6 @@ main .featuring-section{
 .footer-contents{
     max-width: 1360px;
     height: 172px;
-    border: 1px solid white;
     display: grid;
     align-items: center;
     text-align: center;
@@ -547,4 +546,30 @@ main .featuring-section{
   background: linear-gradient(to top, #F7E93F, #FB09B4, #9100F8);
   background-clip: text;
   color: transparent;
+}
+
+/* Footer Social Media Designs */
+
+.brand-sm{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.sm-icon{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.sm-icon span{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.copyight-txt{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
 }
