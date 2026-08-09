@@ -37,7 +37,6 @@ Color-01
     width: 100%;
     max-width: 1600px;
     height: 92px;
-    border: 1px solid blue;
     display: flex;
     justify-content: space-between;
     align-items: center;
